@@ -27,32 +27,34 @@ Include a contact form, your email address, and links to your social media profi
         <meta name="description" content="Christopher Angel Pericas' Professional Portfolio.">
         <meta name="keyword" content="Portfolio, WebDevelopment, Pericas, CodingTemple">
         <meta name="author" content="Web Development Mentor">
+        <link rel="stylesheet" href="main-styles.css">
     </head>
     <body>
-        <h1 align="center">Christopher Angel Pericas' Professional Portfolio</h1>
-        
-        <table align="center">
-            <tr>
-                <!-- Left column with navigation links -->
-                <td>
-                    <ul>
-                        <li><a href="about.html">About Me</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li><a href="contact.html">Contact Me</a></li>
-                    </ul>
-                </td>
-
-                <!-- Right column with image and caption -->
-                <td>
-                    <figure>
-                        <img src="picsNvids/Screenshot_20241017_110019_Facebook.jpg" alt="Chris Pericas">
-                        <figcaption align="center">Christopher Angel Pericas</figcaption>
-                    </figure>
-                </td>
-            </tr>
-        </table>
-
-        <p align="center">Welcome to my Software Engineering Portfolio</p>
+        <div class="container">
+            <header>
+                <img src="picsNvids/Logo.jpg" alt="Chris" class="header-image">
+                <h1 align="center">Christopher Angel Pericas' Professional Portfolio</h1></header>
+            
+            <nav>                
+                <ul>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                 </ul>
+            </nav>  
+                        
+            <main>
+                <h2>Welcome to my Software Engineering Portfolio</h2>
+                <figure>
+                    <img src="picsNvids/Screenshot_20241017_110019_Facebook.jpg" alt="Chris Pericas" class="my-image">
+                    <figcaption align="center">Christopher Angel Pericas</figcaption>
+                </figure>
+            </main>           
+                    
+            <footer>  
+                <p>&copy;2024 Chris Pericas</p>
+            </footer>
+        </div>
     </body>
 </html>
